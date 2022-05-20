@@ -1,0 +1,87 @@
+#main_container {
+    width: 60%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: rgb(131, 131, 250);
+}
+
+#logo {
+    width: 30%;
+    padding-left: 35%;
+}
+
+footer {
+    font-size: 0.8em;
+    margin-top: 100px;
+}
+
+main {
+    line-height: 1.5;
+}
+
+p {
+    text-align: justify;
+}
+
+#seperator {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+figure {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    font-size: 0.8em;
+    text-align: center;
+    display: block;
+}
+
+nav {
+    margin-top: 30px;
+    width: 565px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.MenuLink {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 0px;
+    background-image: url("../assets/images/bg/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
