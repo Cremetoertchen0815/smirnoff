@@ -1,4 +1,4 @@
-<?php
+<?html
 
 $subject = 'Nachricht von ' . $_POST['name'] . ' auf der Homepage(' . $_POST['mail'] . ')';
 $message = $_POST['nachricht'];
@@ -26,16 +26,16 @@ mail('kontakt@smirnoff-kids.de', $subject, $message);
 
     <div id="main_container">
         <header>
-            <a href="index.php">
+            <a href="index.html">
                 <img src="/assets/images/sm_logo.png" id="logo">
             </a>
         </header>
         <nav>
-            <a href="index.php" class="MenuLink">Home</a>-
-            <a href="konzerte.php" class="MenuLink">Konzerte</a>-
-            <a href="bilder.php" class="MenuLink">Bilder</a>-
-            <a href="kontakt.php" class="MenuLink" style="text-decoration: underline;">Kontakt</a>-
-            <a href="impressum.php" class="MenuLink">Impressum</a>
+            <a href="index.html" class="MenuLink">Home</a>-
+            <a href="konzerte.html" class="MenuLink">Konzerte</a>-
+            <a href="bilder.html" class="MenuLink">Bilder</a>-
+            <a href="kontakt.html" class="MenuLink" style="text-decoration: underline;">Kontakt</a>-
+            <a href="impressum.html" class="MenuLink">Impressum</a>
         </nav>
 
         <div id="seperator"></div>
@@ -43,7 +43,7 @@ mail('kontakt@smirnoff-kids.de', $subject, $message);
         <main>
             <article>
                 <h2>Danke für deine Nachricht!</h2>
-                <a href="index.php" class="MenuLink">Zurück zur Startseite</a>
+                <a href="index.html" class="MenuLink">Zurück zur Startseite</a>
             </article>
 
         </main>

@@ -1,4 +1,4 @@
-#main_container {
+main {
     width: 60%;
     padding-left: 60px;
     padding-right: 60px;
@@ -24,19 +24,42 @@ a:hover {
 }
 
 footer {
-    font-size: 0.8em;
     margin-top: 100px;
 }
 
-main {
+article {
     line-height: 1.5;
-}
-
-p {
     text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-#seperator {
+section {
+    padding-top: 25px;
+}
+
+aside {
+    width: 180px;
+    height: 250px;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    border-radius: 20px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+pre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#thanks {
+    text-align: center;
+}
+
+main > hr {
+    border: none;
     background-color: black;
     height: 2px;
     width: 100%;
@@ -53,6 +76,10 @@ figcaption {
     font-size: 0.8em;
     text-align: center;
     display: block;
+}
+
+.full_width {
+    width: 100%;
 }
 
 nav {
