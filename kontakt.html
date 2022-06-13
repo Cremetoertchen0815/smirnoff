@@ -51,7 +51,15 @@
                     <label for="name">Name:</label><br>
                     <input type="text" id="name" name="name" size="45" class="maxwidth"><br>
                     <label for="mail">E-Mail Addresse:</label><br>
-                    <input type="text" id="mail" name="mail" size="45" class="maxwidth"><br><br>
+                    <input type="text" id="mail" name="mail" size="45" class="maxwidth"><br>
+                    <label for="reason">Wählen sie ein Anliegen:</label>
+                    <select name="reason" id="reason">
+                        <option value="saab">Feedback</option>
+                        <option value="volvo">Buchung</option>
+                        <option value="opel">Fanpost</option>
+                        <option value="audi">Lob für die Website ;)</option>
+                    </select><br><br>
+                    <label for="nachricht">Nachricht:</label><br>
                     <textarea name="nachricht" cols="45" rows="5" class="maxwidth"></textarea><br>
                     <button type="submit">Senden</button>
                 </form>

@@ -94,26 +94,40 @@ table {
     border-collapse: collapse;
 }
 
+#TableHeaderA {
+    width: 20%;
+    border-right: solid;
+}
+
+form {
+    border: solid 1px;
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
 th {
     border-bottom: solid;
     width: 50%;
     text-align: center;
   }
 
-th :first-of-type {
-    border-right: solid;
-}
 
 td  {
-    width: 70%;
     text-align: center;
 }
+
 td > img  {
     width: 100%;
     text-align: center;
 }
 
-
+table > caption {
+    text-decoration: underline;
+    font-size: larger;
+    margin-bottom: 50px;
+}
 
 nav {
     margin-top: 30px;
