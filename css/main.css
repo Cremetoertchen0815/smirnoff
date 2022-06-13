@@ -27,7 +27,7 @@ footer {
     margin-top: 100px;
 }
 
-article {
+article, dd {
     line-height: 1.5;
     text-align: justify;
     padding-top: 15px;
