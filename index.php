@@ -231,7 +231,7 @@ if (file_exists($counter_filename)) {
    <div id="main_container">
       <header>
          <a href="index.php">
-            <img src="/assets/images/sm_logo.png" id="logo">
+            <img src="/assets/images/sm_logo_red.svg" id="logo">
          </a>
       </header>
       <nav>
