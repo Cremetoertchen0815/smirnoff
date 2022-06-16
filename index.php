@@ -271,6 +271,7 @@ if (file_exists($counter_filename)) {
             <li>Frank Beier<i>(Bass, Gesang)</i></li>
             <li>Thorsten Peter<i>(Rhythmusgitarre)</i></li>
             <li>Oliver Zimmermann<i>(Lead- und Rhythmusgitarre)</i></li>
+            <li>Oliver Zimmermann<i>(Lead- und Rythmusgitarre)</i></li>
             <li>Rainer Knorr<i>(Rhythmusgitarre)</i></li>
             <li>Levin Beier<i>(Schlagzeug und Percussion)</i></li>
             <li>Mirco Heck<i>(Keys und Synthesizer)</i></li>
