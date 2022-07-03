@@ -249,12 +249,12 @@ if (file_exists($counter_filename)) {
             Herzlich Willkommen auf unserer Website! Hier gibt es alles rund um die Smirnoff Kids aus Haßmersheim,
             beispielsweise Daten zu verschiedenen Konzerten oder Bilder.
          </p>
-         <br>
+
          <figure>
-            <img src="assets/images/home_placeholder.jpg" style="width: 100%;"><br>
+            <img src="assets/images/gruppenbild.jpeg" style="width: 100%;"><br>
             <figcaption>Banner im Proberaum</figcaption>
          </figure>
-         <br>
+
          <p>
             Vor über 30 Jahren in Haßmersheim von Frank und Heggo im Wohnzimmer gegründet, erlangte die
             Band schnell Bekanntheit und spielt nach all der Zeit immernoch vor großem Publikum und ist in der
@@ -263,7 +263,17 @@ if (file_exists($counter_filename)) {
             langweiligsten Popsong einen Metalbanger der seines Gleichen sucht.<br>
             Nach kurzer Kreativpause ist die Band wieder mit vielen frischen Ideen zurück, sowie mit 3 neuen
             Mitgliedern, welche die Band wieder vollständig machen.
-            <br><br>
+         </p>
+
+         <figure>
+            <video style="width: 100%;" controls>
+               <source src="assets/videos/Smirnoff Kids Video Probe.mp4" type="video/mp4">
+               Dein Browser unterstützt keine Videos!
+            </video> 
+            <figcaption>Smirnoff Kids live in Action</figcaption>
+         </figure>
+
+         <p>
             Die Band umfasst momentan folgende Mitglieder:
          </p>
          <ul>
