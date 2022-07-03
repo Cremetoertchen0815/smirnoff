@@ -36,22 +36,18 @@
 
             <figure>
                 <img src="assets/images/proberaum/a.jpeg" style="width: 100%;"><br>
-                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
             </figure>
 
             <figure>
                 <img src="assets/images/proberaum/b.jpeg" style="width: 100%;"><br>
-                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
             </figure>
 
             <figure>
                 <img src="assets/images/proberaum/c.jpeg" style="width: 100%;"><br>
-                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
             </figure>
 
             <figure>
                 <img src="assets/images/proberaum/d.jpeg" style="width: 100%;"><br>
-                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
             </figure>
 
         </main>
