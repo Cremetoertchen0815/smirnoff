@@ -33,9 +33,27 @@
         <div id="seperator"></div>
 
         <main>
-            <h2 style="text-align: center;">
-                Bilder folgen!
-            </h2>
+
+            <figure>
+                <img src="assets/images/proberaum/a.jpeg" style="width: 100%;"><br>
+                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/images/proberaum/b.jpeg" style="width: 100%;"><br>
+                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/images/proberaum/c.jpeg" style="width: 100%;"><br>
+                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
+            </figure>
+
+            <figure>
+                <img src="assets/images/proberaum/d.jpeg" style="width: 100%;"><br>
+                <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
+            </figure>
+
         </main>
         <footer>
             Instagram: <a href="https://www.instagram.com/smirnoffkids_official/">www.instagram.com/smirnoffkids_official</a><br>

@@ -251,8 +251,11 @@ if (file_exists($counter_filename)) {
          </p>
 
          <figure>
-            <img src="assets/images/gruppenbild.jpeg" style="width: 100%;"><br>
-            <figcaption>Banner im Proberaum</figcaption>
+            <video style="width: 100%;" controls>
+               <source src="assets/videos/Smirnoff Kids Video Probe.mp4" type="video/mp4">
+               Dein Browser unterstützt keine Videos!
+            </video> 
+            <figcaption>Smirnoff Kids live in Action</figcaption>
          </figure>
 
          <p>
@@ -266,24 +269,21 @@ if (file_exists($counter_filename)) {
          </p>
 
          <figure>
-            <video style="width: 100%;" controls>
-               <source src="assets/videos/Smirnoff Kids Video Probe.mp4" type="video/mp4">
-               Dein Browser unterstützt keine Videos!
-            </video> 
-            <figcaption>Smirnoff Kids live in Action</figcaption>
+            <img src="assets/images/gruppenbild.jpeg" style="width: 100%;"><br>
+            <figcaption>Die Mitglieder der Smirnoff Kids</figcaption>
          </figure>
 
          <p>
-            Die Band umfasst momentan folgende Mitglieder:
+            Die Band umfasst momentan folgende Mitglieder(von links nach rechts):
          </p>
          <ul>
-            <li>Marcus Heck<i>(Gesang)</i></li>
-            <li>Frank Beier<i>(Bass, Gesang)</i></li>
-            <li>Thorsten Peter<i>(Rhythmusgitarre)</i></li>
-            <li>Oliver Zimmermann<i>(Lead- und Rhythmusgitarre)</i></li>
-            <li>Rainer Knorr<i>(Rhythmusgitarre)</i></li>
-            <li>Levin Beier<i>(Schlagzeug und Percussion)</i></li>
             <li>Mirco Heck<i>(Keys und Synthesizer)</i></li>
+            <li>Oliver Zimmermann<i>(Lead- und Rhythmusgitarre)</i></li>
+            <li>Marcus Heck<i>(Gesang)</i></li>
+            <li>Thorsten Peter<i>(Rhythmusgitarre)</i></li>
+            <li>Rainer Knorr<i>(Rhythmusgitarre)</i></li>
+            <li>Frank Beier<i>(Bass, Gesang)</i></li>
+            <li>Levin Beier<i>(Schlagzeug und Percussion)</i></li>
          </ul>
 
 
