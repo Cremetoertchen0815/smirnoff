@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/fonts/Roboto-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+  }
+
 main {
     width: 60%;
     padding-left: 60px;
@@ -57,7 +62,7 @@ aside {
 }
 
 pre {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto;
     font-size: large;
 }
 
@@ -160,6 +165,6 @@ body {
     height: 100%;
     width: 100%;
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto;
     font-size: large;
 }
