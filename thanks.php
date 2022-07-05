@@ -1,5 +1,9 @@
-<?html
-
+<?php
+if (isset($_Post['mailconfirm'])) {
+    $subject = 'Smirnoffkids dankt für ihre Nachricht!';
+    $message = 'Vielen Dank das Sie Smirnoff Kids kontaktiert haben. Ihre Nachricht ist bei uns eingegangen und wird in Kürze bearbeitet. Mit rockigen Grüßen, die Smirnoff Kids';
+    mail($_POST['mail'], $subject, $message);
+}
 $subject = 'Nachricht von ' . $_POST['name'] . ' auf der Homepage(' . $_POST['mail'] . ')';
 $message = $_POST['nachricht'];
 
