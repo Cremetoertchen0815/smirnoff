@@ -40,11 +40,11 @@ mail('kontakt@smirnoff-kids.de', $subject, $message);
             <a href="index.html" class="MenuLink">Home</a>-
             <a href="konzerte.html" class="MenuLink">Konzerte</a>-
             <a href="bilder.html" class="MenuLink">Bilder</a>-
-            <a href="kontakt.html" class="MenuLink" style="text-decoration: underline;">Kontakt</a>-
+            <a href="kontakt.html" class="MenuLink" active>Kontakt</a>-
             <a href="impressum.html" class="MenuLink">Impressum</a>
         </nav>
 
-        <div id="seperator"></div>
+        <hr>
 
         <main>
             <article>

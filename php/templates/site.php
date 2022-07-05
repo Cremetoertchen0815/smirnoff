@@ -25,7 +25,7 @@
          </a>
       </header>
       <nav>
-         <a href="index.html" class="MenuLink" id="ActiveLink">Home</a><span class="seperator">-</span>
+         <a href="index.html" class="MenuLink" active>Home</a><span class="seperator">-</span>
          <a href="konzerte.html" class="MenuLink">Konzerte</a><span class="seperator">-</span>
          <a href="bilder.html" class="MenuLink">Bilder</a><span class="seperator">-</span>
          <a href="kontakt.html" class="MenuLink">Kontakt</a><span class="seperator">-</span>

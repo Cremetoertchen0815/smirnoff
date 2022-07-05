@@ -23,6 +23,23 @@ a:hover {
     color: rgb(131, 131, 250);
 }
 
+a:active {
+    color: rgb(85, 255, 136);
+}
+
+::selection {
+    background-color:rgb(85, 255, 136);
+}
+
+
+::-moz-selection {
+    background-color:rgb(85, 255, 136);
+}
+
+::marker {
+    font-family: Impact;
+}
+
 #logo {
     width: 30%;
     padding-left: 35%;
@@ -67,10 +84,11 @@ pre {
 }
 
 #thanks {
+    color: black;
     text-align: center;
 }
 
-main > hr {
+main hr {
     border: none;
     background-color: black;
     height: 2px;
@@ -147,7 +165,7 @@ nav {
     margin-right: 15px;
 }
 
-#ActiveLink {
+.MenuLink[active] {
     text-decoration: underline;
 }
 
