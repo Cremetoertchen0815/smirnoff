@@ -43,10 +43,11 @@
 
             <br><br>
 
-            <form method="post" action="/thanks.php" target="_self">
+            <form method="post" action="/php/thanks.php" target="_self">
                 <label for="name">Bewertung:</label><br>
                 <input type="range" name="name" min="0" max="10">
-                <input type="hidden" id="mailconfirm" name="mailconfirm" value="false"><br>
+                <input type="hidden" id="mailconfirm" name="mailconfirm" value="false">
+                <input type="topic" id="mailconfirm" name="mailconfirm" value="fan"><br>
                 <label for="nachricht">Nachricht:</label><br>
                 <textarea style="resize: none;" name="nachricht" cols="45" rows="5" class="maxwidth"></textarea><br>
                 <button type="submit">Senden</button>

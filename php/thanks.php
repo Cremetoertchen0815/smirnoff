@@ -4,7 +4,7 @@ if (isset($_Post['mailconfirm'])) {
     $message = 'Vielen Dank das Sie Smirnoff Kids kontaktiert haben. Ihre Nachricht ist bei uns eingegangen und wird in Kürze bearbeitet. Mit rockigen Grüßen, die Smirnoff Kids';
     mail($_POST['mail'], $subject, $message);
 }
-$subject = 'Nachricht von ' . $_POST['name'] . ' auf der Homepage(' . $_POST['mail'] . ')';
+$subject = 'Nachricht von ' . $_POST['name'] . ' zum Thema ' . $_POST['topic'] . ' auf der Homepage(' . $_POST['mail'] . ')';
 $message = $_POST['nachricht'];
 
 mail('kontakt@smirnoff-kids.de', $subject, $message);
