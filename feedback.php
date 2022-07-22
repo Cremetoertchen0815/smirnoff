@@ -11,7 +11,7 @@
 			name="keywords"
 			content="Smirnoff Kids, Band, Haßmersheim, Mosbach, Metal, Rock, Musik"
 		/>
-		<meta name="author" content="Mirco Heck, Levin Beier" />
+		<meta name="author" content="Nico Zimmermann, Johannes Brandau, Marius Görg, Mirco Heck" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="assets/fonts/stylesheet.css" />
 		<link rel="stylesheet" type="text/css" href="css/common.css" />
@@ -28,7 +28,7 @@
 	<body>
 		<main>
 			<header>
-				<a href="index.html">
+				<a href="index.php">
 					<img
 						src="assets/images/sm_logo_red.svg"
 						id="logo"
@@ -37,15 +37,15 @@
 				</a>
 			</header>
 			<nav>
-				<a href="index.html" class="MenuLink">Home</a
+				<a href="index.php" class="MenuLink">Home</a
 				><span class="seperator">-</span>
-				<a href="konzerte.html" class="MenuLink">Konzerte</a
+				<a href="konzerte.php" class="MenuLink">Konzerte</a
 				><span class="seperator">-</span>
-				<a href="bilder.html" class="MenuLink">Bilder</a
+				<a href="bilder.php" class="MenuLink">Bilder</a
 				><span class="seperator">-</span>
-				<a href="kontakt.html" class="MenuLink">Kontakt</a
+				<a href="kontakt.php" class="MenuLink">Kontakt</a
 				><span class="seperator">-</span>
-				<a href="impressum.html" class="MenuLink">Impressum</a>
+				<a href="impressum.php" class="MenuLink">Impressum</a>
 			</nav>
 
 			<hr />
