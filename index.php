@@ -37,15 +37,15 @@
 				</a>
 			</header>
 			<nav>
-				<a href="index.php" class="MenuLink">Home</a
+				<a href="index.php" class="MenuLink" active>Home</a
 				><span class="seperator">-</span>
-				<a href="konzerte.php" class="MenuLink">Konzerte</a
+				<a href="php/konzerte.php" class="MenuLink">Konzerte</a
 				><span class="seperator">-</span>
-				<a href="bilder.php" class="MenuLink">Bilder</a
+				<a href="php/bilder.php" class="MenuLink">Bilder</a
 				><span class="seperator">-</span>
-				<a href="kontakt.php" class="MenuLink">Kontakt</a
+				<a href="php/kontakt.php" class="MenuLink">Kontakt</a
 				><span class="seperator">-</span>
-				<a href="impressum.php" class="MenuLink">Impressum</a>
+				<a href="php/impressum.php" class="MenuLink">Impressum</a>
 			</nav>
 
 			<hr />
@@ -60,7 +60,7 @@
 				<figure>
 					<video style="width: 100%" controls>
 						<source
-							src="assets/video/Smirnoff_Kids_Video_Probe.mp4"
+							src="assets/videos/Smirnoff_Kids_Video_Probe.mp4"
 							type="video/mp4"
 						/>
 						Dein Browser unterstützt keine Videos!
@@ -126,7 +126,7 @@
 			</section>
 
 			<aside>
-				<a href="feedback.php">
+				<a href="php/feedback.php">
 					<div id="thanks">Wir hoffen, ihnen gefällt die Seite!</div>
 					<svg viewBox="0 0 200 200" width="180" height="180">
 						<circle
