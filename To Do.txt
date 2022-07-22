@@ -1,4 +1,0 @@
--Felhlende Elemente einfügen
--Impressum einfügen
--Bilder und Videos einfügen
--Mobile CSS fixen
